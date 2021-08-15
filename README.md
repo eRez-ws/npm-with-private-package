@@ -1,0 +1,1 @@
+# npm-with-private-package
