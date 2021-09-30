@@ -1,8 +1,25 @@
-##########################################################
-####    WhiteSource Integration configuration file    ####
-##########################################################
-
-# Configuration #
-#---------------#
-ws.repo.scan=true
-vulnerable.check.run.conclusion.level=failure
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  },
+  "hostRules": [
+    {
+          "matchHost": "http://34.192.176.193:8081/artifactory/api/npm/npm-new/",
+          "hostType":"npm",
+          "userName": "admin",
+          "encrypted": {
+            "token": "wcBMA90FtVIhcznKAQf8Cy7/E5TgX2APlgY3Xt2rHt26HoWgHZykqYoT5oFam4OJoRjtwQslohjFi85TrFNP7oL+63Zx+iFo/FSgEnK4BO34Ti/vdngy6VJICq3ZiAIg6pib4ho8GbZR+0fCwdW91aqBttTaWVBIxMNB5d+46Z2HyuWA5mxeTHlS1e6nER1ypO87Ql6wFwGxIM/fDR/3m69WVkBS7S2UwO0OiSpb8dA4TRblR7F18GN41mYkQmu7vm+gQEK11kpuM5tOBGkCXkfV31Ppmmb13BjTA9nN7funluRBkf+VI8fLVOsyTAfpaJGQh/Tk0ATN8ugXQYUNI289xAtNMiTIjegSCt8MNtK0AUtfeCR4PfV6o6OanHLwn2RjGgu1svCDYxoAandCwwSNmlh0Lm6snfWI/+EHVlKmK9qItVBk2VoqxUcWVKHAfeDjHrNknTlUGWE0Bnu5jEgRFH9hqlJbLMuDCfBMe1Vo3hrMYtI0ksL5yeHNMHBIRViWAwufxZa6n5Vts0WpZvfR1WtThxToDust/yhe6Aqer/qzF+HSEwy4FF19qKekFtj64Z6WFv5hh7RvS61osIkHtQon"
+          }
+    }
+  ]
+}
