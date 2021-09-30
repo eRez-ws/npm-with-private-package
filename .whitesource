@@ -15,11 +15,12 @@
   },
   "hostRules": [
 	{
-      "matchHost": "http://registry.npmjs.org",
-      "hostType":"npm",
-      "userName": null,
-      "encrypted": {
-        "token": "wcBMA90FtVIhcznKAQf+KIYfB2uL1l8g4s/3EH0r9Dax5J8neQNb2Ghcu2XDk2xbmaJ4dCWQGwAdnrihmGEUge9pCKOoUNyt5Zx5l13fmgquplup9Zy/isX9mPO6sl8n+soeJ5z+cKmgDtGUbGzfM9lcik3cdjYRYb9JrLh3LHUFjHFfVM4d+rommHYmAZbl/DlayAYsh2HqE77WhCt2KvJQNryMB5JbOvcM+uHc4FNoxDVeH/0Laq4qG/0fWZeMpafXKWhOoFt2aGbjRclk2KG5kK0oX6jlJ4m3l4o53POkaxObWZGtfX7YgeUWZMLO90QfDHXz0fjLVrrBvpwiL8qiN0TBpq9AjNexuU6AyNKPAZtfR+4LRQB1iykzE3x+Zsh+nl3Y8ZXe2SbYEfTg4YmsDgxkMlyl5rIfeEdAw2ZA5Xbuj04a1WoVUPQkLQ1xNKoC2YmhSwHwt6r3B3mjp6f8BYMKDt64FoywnbIt1GD8rGMLg9rGhZv6BCheKBKP0J0T8+mPIrcbd+8mErLMwJsuN1jrwZm5oDI9QiT1qHk"
-    }
+	      "matchHost": "http://registry.npmjs.org",
+	      "hostType":"npm",
+	      "userName": null,
+	      "encrypted": {
+		"token": "wcBMA90FtVIhcznKAQf+KIYfB2uL1l8g4s/3EH0r9Dax5J8neQNb2Ghcu2XDk2xbmaJ4dCWQGwAdnrihmGEUge9pCKOoUNyt5Zx5l13fmgquplup9Zy/isX9mPO6sl8n+soeJ5z+cKmgDtGUbGzfM9lcik3cdjYRYb9JrLh3LHUFjHFfVM4d+rommHYmAZbl/DlayAYsh2HqE77WhCt2KvJQNryMB5JbOvcM+uHc4FNoxDVeH/0Laq4qG/0fWZeMpafXKWhOoFt2aGbjRclk2KG5kK0oX6jlJ4m3l4o53POkaxObWZGtfX7YgeUWZMLO90QfDHXz0fjLVrrBvpwiL8qiN0TBpq9AjNexuU6AyNKPAZtfR+4LRQB1iykzE3x+Zsh+nl3Y8ZXe2SbYEfTg4YmsDgxkMlyl5rIfeEdAw2ZA5Xbuj04a1WoVUPQkLQ1xNKoC2YmhSwHwt6r3B3mjp6f8BYMKDt64FoywnbIt1GD8rGMLg9rGhZv6BCheKBKP0J0T8+mPIrcbd+8mErLMwJsuN1jrwZm5oDI9QiT1qHk"
+	    	}
+	}
   ]
 }
