@@ -2,7 +2,7 @@
 {
   "scanSettings": {
     "configMode": "LOCAL",
-    "configExternalURL": "",
+    "configExternalURL": "NOT-wss-unified-agent.config",
     "projectToken": "",
     "baseBranches": []
   },
